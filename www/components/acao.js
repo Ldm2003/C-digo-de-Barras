@@ -3,7 +3,7 @@ function scanBarcode() {
     if(result.text == 280720550){ 
       window.location.href="modelo1.html";
        alert("Leitura do código  de barras\n" +
-        "Resultado: " + result.text + "\n" +
+        "Resultado: " + result.text + "\n" +  
         "Formato: " + result.format+ "\n" +
         "Cancelado: " + result.cancelled);
     }
